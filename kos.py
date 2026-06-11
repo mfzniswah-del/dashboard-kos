@@ -443,7 +443,7 @@ with st.container():
         st.dataframe(df_skor[["nama_kos", "lokasi", "harga", "Skor_AHP"]], use_container_width=True)
         
         best = df_skor.iloc[0]
-        st.ballons()
+        st.balloons()
         st.markdown(f"""
         <div style="background-color:#004B87; padding:20px; border-radius:15px; color:white; text-align:center">
             <h2> KOS REKOMENDASI UNTUK ANDA </h2>
