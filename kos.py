@@ -316,7 +316,7 @@ if not df_filtered.empty:
         
         # BOX 1: Keluhan + Bar Chart Aspek + Indikator
         with st.container():
-            st.markdown(f'<div class="box"><div class="box-title">🏘️ {nama}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="box"><div class="box-title"> {nama}</div>', unsafe_allow_html=True)
             
             # Keluhan (Pareto)
             st.markdown("####  Keluhan Penghuni (Pareto)")
